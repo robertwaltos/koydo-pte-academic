@@ -1,0 +1,45 @@
+// PTE Academic Configuration
+// Generated from top_200_exam_universe_seed.csv
+
+export const EXAM_CONFIG = {
+  examId: "EXAM009",
+  slug: "pte-academic",
+  name: "PTE Academic",
+  fullName: "PTE Academic",
+  alias: "PTE Academic",
+  family: "PTE",
+  category: "Language proficiency",
+  subcategory: "Study/work/migration",
+  country: "Global",
+  region: "Global",
+  languages: ["English"],
+  estimatedAnnualTakers: "not fully disclosed",
+  testingWindow: "Year-round",
+  schedulePattern: "Frequent test-center dates",
+  ageGroup: "16-40",
+  targetUser: "Study/work candidate",
+  delivery: "Computer-based",
+  questionTypes: ["Integrated speaking","writing","reading","listening"],
+  adaptivity: "Linear",
+  sections: "Integrated tasks",
+  scoringMode: "10-90",
+  essayOrSpeaking: "Yes",
+  ipRisk: "High",
+  contentReuse: "language_4skills",
+  uiEngine: "computer_integrated_language",
+  monetizationPotential: "High",
+  tier: "Tier 1",
+  launchWave: "Wave 2",
+  themeColor: "#059669",
+  themeColorDark: "#047857",
+  localizationComplexity: "Medium",
+  offlineNeeded: false,
+  mobileFirst: true,
+  locale: "en",
+  isRTL: false,
+  freemiumGate: {
+    dailyQuestions: 10,
+  },
+} as const;
+
+export type ExamConfig = typeof EXAM_CONFIG;
