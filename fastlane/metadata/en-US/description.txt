@@ -1,0 +1,7 @@
+Pearson Test of English Academic — smart, adaptive exam preparation powered by Koydo.
+
+Features:
+• Adaptive practice with IRT-based question selection
+• Spaced repetition flashcards
+• Detailed analytics and progress tracking
+• Offline support
